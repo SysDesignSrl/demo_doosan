@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>demo_doosan</name>
+  <version>0.0.0</version>
+  <description>
+    The demo_doosan package
+  </description>
+  <license>TODO</license>
+
+  <maintainer email="nicola@sysdesign.it">Nicola Conti</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>dsr_msgs</depend>
+
+  <exec_depend>dsr_description</exec_depend>
+  <exec_depend>dsr_control</exec_depend>
+  <exec_depend>dsr_launcher</exec_depend>
+
+</package>

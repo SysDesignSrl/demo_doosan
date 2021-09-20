@@ -1,0 +1,14 @@
+<launch>
+
+  <!-- -->
+  <include file="$(find dsr_launcher)/launch/dsr_moveit.launch">
+    <arg name="model" value="m1013"/>
+    <arg name="mode" value="virtual"/>
+    <arg name="rviz" value="false"/>
+  </include>
+
+  <!-- RViz -->
+  <node name="rviz" pkg="rviz" type="rviz"
+    args="-d $(find demo_doosan)/rviz/demo.rviz"/>
+
+</launch>
